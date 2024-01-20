@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ChacrasDeCoriaEnMendozaApplication<Chacras_de_Coria_en_Mendoza>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Proyecto_Equipo_7.ChacrasDeCoriaEnMendozaApplication",
+            "projectName": "Chacras_de_Coria_en_Mendoza",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

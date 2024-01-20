@@ -1,0 +1,214 @@
+body,
+.metricas {
+    background: rgb(231, 231, 231)
+}
+
+.navbar {
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+.dropdown-item{
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+#buscador{
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+.navbar a:hover {
+    background-color: rgb(51, 51, 51);
+    border-radius: 8px;
+}
+
+.elementosNav {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    color: #37474f;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+.elementos {
+    margin-right: 50px;
+}
+
+.containerImg {
+    width: 20%;
+}
+
+/*---FOOTER FRAGMENT----*/
+
+.footer li {
+    background-color: #14141480;
+    border-radius: 8px;
+    color: rgb(233, 231, 231);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+.footer li a{
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+.footer a:hover {
+    background-color: rgb(7, 7, 7);
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+
+.cardProveedorPorRubro {
+    background-color: rgba(173, 175, 175, 0.699);
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans';
+    border: 2px double rgb(56, 56, 56);
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+}
+
+
+.contenedorMain {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton {
+    background-color: #ffcb00;
+    box-shadow: 0px 2px 16px 4px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0px 2px 16px 4px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 2px 16px 4px rgba(0, 0, 0, 0.36);
+}
+
+.boton:hover {
+    background-color: #ffcb00;
+}
+
+.boton:active {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    font: small-caps normal 55px/1 sans-serif;
+    font-variant-caps: small-caps;
+    font-style: italic;
+    color: #66ccff;
+}
+
+
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
+.table-listas {
+    table-layout: auto;
+}
+
+.bordeRegistroRubro {
+    border: #37474f solid 4px;
+    height: 400px;
+}
+
+.bordeRegistroRubro {
+    border: #37474f solid 4px;
+    height: 400px;
+}
+
+.bordeRegistroRubro {
+    border: #37474f solid 4px;
+    height: 400px;
+}
+
+.bordeRegistroRubro {
+    border: #37474f solid 4px;
+    height: 400px;
+}
+
+.errorimg {
+    background-image: url(../img/error.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleInicio {
+    transform: translateY(30px);
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 800;
+    font-size: 3.5rem;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+    line-height: 1.4;
+    color: rgb(51, 51, 51);
+
+
+}
+
+
+.contenidoDiv{
+   position: fixed;
+            bottom:  50px; /* Ajusta la posición vertical según tu preferencia */
+            right: 20px; /* Ajusta la posición horizontal según tu preferencia */
+            width: 250px;
+            height: 80px;
+            border: 2px solid #000;
+            border-radius: 8px;
+            word-wrap: break-word;
+            
+             background-repeat: no-repeat; /* Para evitar la repetición de la imagen */
+    background-size: cover;
+    
+}

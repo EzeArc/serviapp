@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  java_app:
+    container_name: java_app
+    image: java_app:1.0.0
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=jdbc:mysql://java_db:3306/servicioschacra?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT&characterEncoding=UTF-8
+      - DATABASE_USERNAME=root
+      - DATABASE_PASSWORD=root
+    depends_on:
+      - java_db
+  java_db:
+    image: mysql:8.0
+    container_name: java-db
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "servicioschacra"
+
+
+
